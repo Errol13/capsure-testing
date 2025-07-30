@@ -5,7 +5,7 @@
 2. As a freelancer, I want to reset my password so I can recover my account when I forgot the password.
 
 --- 
-## TC_FRLNCR_001: Register with valid inputs
+## TC_FRLNCR_001a: Register with valid inputs
 - **Preconditions**: None
 - **Steps** :
     1. Go to Sign Up Page
@@ -17,7 +17,7 @@
     - [ ] Fail
 
 --- 
-## TC_FRLNCR_002: Register with invalid inputs
+## TC_FRLNCR_001b: Register with invalid inputs
 - **Preconditions**: None
 - **Steps** :
     1. Go to Sign Up Page
@@ -29,7 +29,7 @@
     - [ ] Fail
 
 --- 
-## TC_FRLNCR_003: Login with valid credentials 
+## TC_FRLNCR_002a: Login with valid credentials 
 - **Preconditions**: Freelancer account is already registered.
 - **Steps** :
     1. Go to Login Page
@@ -41,7 +41,7 @@
     - [ ] Fail
 
 --- 
-## TC_FRLNCR_004: Login with invalid credentials
+## TC_FRLNCR_002b: Login with invalid credentials
 - **Preconditions**: Freelancer account exists.
 - **Steps** :
     1. Go to Login Page
@@ -53,7 +53,7 @@
     - [ ] Fail 
 
 --- 
-## TC_FRLNCR_005: Reset Password 
+## TC_FRLNCR_003: Reset Password 
 - **Preconditions**: Freelancer must have a registered email.
 - **Steps** :
     1. Click "Forgot Password" in the Login Page
